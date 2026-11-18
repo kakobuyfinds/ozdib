@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#103e32">
+<title>HooBuy spreadsheet | Product Finds, QC & Buying Checklist</title>
+<meta name="description" content="Explore a HooBuy spreadsheet guide with real HipobuyFind catalog picks, CNY prices, product filters, sizing checks and a practical shipping budget planner.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="HooBuy spreadsheet | Find, Compare, Check">
+<meta property="og:description" content="Real catalog references, clear pricing and practical checks before you buy. Independent product discovery guide.">
+<meta name="twitter:card" content="summary">
+<!-- index.html
+Research informed the category navigation, price transparency, QC checklist,
+source disclosure and searchable catalog. Search results are not a verified
+Google first-page ranking report; positions vary by location and time.
+Research references:
+https://hoospreadsheet.net/hoobuy-spreadsheet/
+https://hoobuy.delivery/
+https://rep.tools/guides/hoobuy-spreadsheet
+https://hoo-buy.net/
+Catalog source: https://hipobuyfind.com/
+Deployment: set an absolute self-referencing canonical and og:url after the
+actual public domain is known. Do not canonicalize this page to the referral site.
+INDEXING STATUS: Not submitted. No deployment URL or verified webmaster account
+was supplied. After publishing, verify the actual domain in Google Search Console
+and Bing Webmaster Tools, submit its sitemap and request indexing of its homepage.
+A static HTML file cannot itself verify ownership or guarantee indexing.
+-->
+<style>
+:root{--bg:#f5f5ed;--paper:#fffef8;--ink:#163c31;--muted:#5e7067;--line:#dce1d5;--green:#164d3d;--lime:#d9f28b;--radius:22px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.65}a{color:inherit}button,input,select{font:inherit}button,a,input,select{touch-action:manipulation}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #8ba940;outline-offset:4px}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}.skip{position:absolute;left:10px;top:-70px;background:white;padding:10px;z-index:10}.skip:focus{top:10px}header{border-bottom:1px solid var(--line)}.nav{min-height:82px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{text-decoration:none;font-weight:800;letter-spacing:-.6px;font-size:21px}.brand span{display:inline-grid;place-items:center;background:var(--green);color:var(--lime);width:35px;height:35px;border-radius:10px;margin-right:9px}nav{display:flex;gap:22px;font-size:14px}nav a{text-decoration:none}.hero{text-align:center;padding:78px 0 60px}.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:2px;font-weight:700;color:var(--muted)}h1{font-size:clamp(42px,7vw,78px);letter-spacing:-3px;line-height:1.08;margin:20px auto;max-width:900px}h1 em{font-style:normal;color:#527444}h2{font-size:clamp(26px,4vw,37px);line-height:1.2;letter-spacing:-1px;margin:8px 0 16px}h3{line-height:1.35}.lead{max-width:680px;margin:20px auto;color:var(--muted);font-size:18px}.actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:28px 0 20px}.btn{display:inline-block;border:1px solid var(--green);border-radius:100px;background:var(--green);color:white;text-decoration:none;padding:13px 24px;font-weight:700;font-size:14px;cursor:pointer}.btn.alt{background:transparent;color:var(--green)}.small{font-size:13px;color:var(--muted)}.strip{display:grid;grid-template-columns:repeat(3,1fr);background:var(--green);color:white;border-radius:var(--radius);overflow:hidden;margin-bottom:65px}.strip div{padding:23px 28px;border-right:1px solid #ffffff24}.strip strong{display:block;color:var(--lime)}.strip p{margin:4px 0;font-size:13px}.section{padding-bottom:66px}.sectionhead{display:flex;justify-content:space-between;gap:24px;align-items:end;margin-bottom:25px}.sectionhead p{max-width:400px;color:var(--muted);font-size:14px}.tools{display:grid;grid-template-columns:1fr 220px;gap:14px;margin:22px 0}.tools label{display:block;font-weight:700;font-size:13px}.tools input,.tools select,.budget input{width:100%;padding:12px 14px;border:1px solid #bac9bb;border-radius:12px;background:var(--paper);color:var(--ink);margin-top:6px;min-height:48px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}.photo{background:#e9eade;aspect-ratio:1;position:relative}.photo img{width:100%;height:100%;object-fit:contain;display:block}.photo .fallback{display:none;position:absolute;inset:0;place-items:center;text-align:center;padding:24px;color:var(--muted)}.photo.failed img{display:none}.photo.failed .fallback{display:grid}.cardbody{padding:23px}.tag{font-size:11px;text-transform:uppercase;letter-spacing:1.2px;color:var(--muted)}.card h3{font-size:20px;margin:9px 0 15px}.price{font-size:23px;font-weight:800}.price small{font-size:13px;font-weight:400;color:var(--muted)}.card .btn{padding:9px 15px;margin-top:15px}.note{background:#eaf0de;border-radius:14px;padding:16px 20px;font-size:13px;color:#405c46;margin-top:22px}.empty{padding:24px;border:1px dashed var(--muted);border-radius:12px}.twocol{display:grid;grid-template-columns:1fr 1fr;gap:35px}.panel{background:var(--paper);padding:30px;border-radius:var(--radius);border:1px solid var(--line)}.steps{padding-left:24px}.steps li{padding:0 0 18px 8px}.steps strong{display:block}.steps p{color:var(--muted);margin:4px 0;font-size:14px}.tablewrap{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:14px}th,td{text-align:left;padding:14px 10px;border-bottom:1px solid var(--line);vertical-align:top}th{background:#edf1e5}.budget{display:grid;grid-template-columns:1fr 1fr;gap:14px}.budget label{font-size:13px}.total{background:var(--green);color:white;border-radius:14px;padding:20px;margin-top:20px}.total output{font-size:30px;display:block;color:var(--lime);font-weight:800}details{border-bottom:1px solid var(--line);padding:18px 0}summary{font-weight:700;cursor:pointer}details p{color:var(--muted);max-width:850px}.closing{text-align:center;background:var(--green);color:white;padding:44px 25px;border-radius:var(--radius);margin-bottom:55px}.closing .btn{background:var(--lime);color:var(--ink);border-color:var(--lime)}footer{border-top:1px solid var(--line);padding:28px 0 35px;font-size:12px;color:var(--muted)}[hidden]{display:none!important}
+@media(max-width:760px){.wrap{width:min(100% - 28px,1120px)}.nav{flex-direction:column;justify-content:center;padding:17px 0;gap:10px}nav{gap:16px;font-size:13px}.hero{padding:48px 0 35px}h1{letter-spacing:-1.7px}.strip,.grid,.twocol{grid-template-columns:1fr}.strip{margin-bottom:40px}.strip div{padding:16px 22px;border-bottom:1px solid #ffffff24}.sectionhead{display:block}.tools{grid-template-columns:1fr}.grid{max-width:480px;margin:auto}.section{padding-bottom:44px}.panel{padding:23px}.lead{font-size:16px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"WebPage",
+"name":"HooBuy spreadsheet | Product Finds, QC & Buying Checklist",
+"inLanguage":"en",
+"description":"Independent product discovery guide featuring a HipobuyFind catalog snapshot, comparison tools and a buying checklist.",
+"mainEntity":{
+"@type":"ItemList",
+"name":"HipobuyFind catalog selection",
+"numberOfItems":3,
+"itemListElement":[
+{"@type":"ListItem","position":1,"name":"Fleece-Lined Hoodie","url":"https://hipobuyfind.com/goods-154917.html"},
+{"@type":"ListItem","position":2,"name":"Hooded Quick-Dry Jacket","url":"https://hipobuyfind.com/goods-154851.html"},
+{"@type":"ListItem","position":3,"name":"Beige Quilted Drawstring Mini Backpack, Style 6302-1","url":"https://hipobuyfind.com/goods-154850.html"}
+]
+}
+}
+</script>
+<link rel="canonical" href="https://kakobuyfinds.github.io/ozdib/">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header>
+<div class="wrap nav">
+<a class="brand" href="https://hipobuyfind.com"><span>H</span>HooBuy spreadsheet</a>
+<nav aria-label="Main navigation"><a href="#catalog">Product directory</a><a href="#guide">Buying guide</a><a href="#faq">FAQ</a></nav>
+</div>
+</header>
+<main id="main" class="wrap">
+<section class="hero">
+<div class="eyebrow">Independent finds & practical buying guidance</div>
+<h1>HooBuy spreadsheet.<br><em>A clearer way to compare.</em></h1>
+<p class="lead">Explore real catalog references, compare item prices and build a shortlist. Check the exact listing, fit and full delivery cost before making a purchase.</p>
+<div class="actions">
+<a class="btn" href="https://hipobuyfind.com">HooBuy spreadsheet <span aria-hidden="true">↗</span></a>
+<a class="btn alt" href="https://hipobuyfind.com">Buy it now <span aria-hidden="true">↗</span></a>
+</div>
+<p class="small">Both buttons open HipobuyFind, an external discovery catalog. They do not place a HooBuy order.</p>
+</section>
+
+<div class="strip">
+<div><strong>Real source records</strong><p>Three imported product references with original item IDs.</p></div>
+<div><strong>Clear price context</strong><p>CNY item prices, with delivery costs considered separately.</p></div>
+<div><strong>Useful checks</strong><p>Compare sizing, listing details and available warehouse photos.</p></div>
+</div>
+
+<section id="catalog" class="section" aria-labelledby="catalogtitle">
+<div class="sectionhead">
+<div><div class="eyebrow">The product edit</div><h2 id="catalogtitle">Browse the spreadsheet directory</h2></div>
+<p>Selected records from HipobuyFind. This is a fixed catalog snapshot, not a live stock feed or an assurance of HooBuy compatibility.</p>
+</div>
+<div class="tools">
+<label for="search">Search this selection<input id="search" type="search" placeholder="Try hoodie, jacket or backpack…" autocomplete="off"></label>
+<label for="category">Product category<select id="category"><option value="all">All categories</option><option value="hoodies">Hoodies / Sweaters</option><option value="jackets">Jackets</option><option value="bags">Bags</option></select></label>
+</div>
+<p id="resultcount" class="small" role="status" aria-live="polite">3 products in this selection</p>
+<div class="grid" id="products">
+<article class="card" data-category="hoodies" data-search="fleece lined hoodie sweatshirt hoodies sweaters 154917">
+<div class="photo"><img src="https://si.geilicdn.com/open1792148229-1234478995-76d100000196f413b04f0a8133b0_800_800.jpg" alt="Fleece-lined hoodie listing photograph from HipobuyFind" width="800" height="800" loading="lazy" decoding="async"><span class="fallback">Photo unavailable. Open the source record to inspect the item.</span></div>
+<div class="cardbody"><span class="tag">Hoodies / Sweaters · #154917</span><h3>Fleece-Lined Hoodie</h3><div class="price">¥170.00 <small>CNY item price</small></div><p class="small">Compare chest width, garment length and lining details for the exact size.</p><a class="btn" href="https://hipobuyfind.com/goods-154917.html">View source product ↗</a></div>
+</article>
+<article class="card" data-category="jackets" data-search="hooded quick dry jacket outerwear 154851">
+<div class="photo"><img src="https://si.geilicdn.com/wdseller1489596767-2b4400000193c17bed690a210139_697_1024.jpg" alt="Hooded quick-dry jacket listing photograph from HipobuyFind" width="697" height="1024" loading="lazy" decoding="async"><span class="fallback">Photo unavailable. Open the source record to inspect the item.</span></div>
+<div class="cardbody"><span class="tag">Jackets · #154851</span><h3>Hooded Quick-Dry Jacket</h3><div class="price">¥157.14 <small>CNY item price</small></div><p class="small">Review the fabric description and measurements. The title alone does not prove performance.</p><a class="btn" href="https://hipobuyfind.com/goods-154851.html">View source product ↗</a></div>
+</article>
+<article class="card" data-category="bags" data-search="beige quilted drawstring mini backpack bags 6302-1 154850">
+<div class="photo"><img src="https://si.geilicdn.com/pcitem901921648802-7dbe000001955a1df4c10a210349_1080_1080.jpg" alt="Beige quilted drawstring mini backpack listing photograph from HipobuyFind" width="1080" height="1080" loading="lazy" decoding="async"><span class="fallback">Photo unavailable. Open the source record to inspect the item.</span></div>
+<div class="cardbody"><span class="tag">Bags · #154850</span><h3>Beige Quilted Mini Backpack</h3><div class="price">¥340.00 <small>CNY item price</small></div><p class="small">Source style: 6302-1. Check dimensions, closure, straps and internal compartments.</p><a class="btn" href="https://hipobuyfind.com/goods-154850.html">View source product ↗</a></div>
+</article>
+</div>
+<p id="empty" class="empty" hidden>No matching items in this three-product selection. Clear your search or explore the full HipobuyFind catalog.</p>
+<div class="note"><strong>Source & freshness:</strong> Product names, IDs, photos and CNY references were retrieved from HipobuyFind during page preparation. Search-cache data may lag behind the live site. Prices exclude shipping and other charges; stock, quality, authenticity and agent acceptance have not been independently verified. Product photos are listing references, not verified warehouse QC images.</div>
+<div class="actions"><a class="btn alt" href="https://hipobuyfind.com">Explore the full catalog ↗</a></div>
+</section>
+
+<section id="guide" class="section">
+<div class="twocol">
+<div>
+<div class="eyebrow">From discovery to decision</div>
+<h2>How to use a HooBuy spreadsheet</h2>
+<p>A spreadsheet helps organize product candidates. The useful part is the connection between a specific listing, its options, its price and the checks you still need to make.</p>
+<ol class="steps">
+<li><strong>Find a candidate</strong><p>Search by product type and open its original catalog record. Save the item ID so you can distinguish similar listings.</p></li>
+<li><strong>Confirm the source listing</strong><p>Review the seller link, selected variant, quantity and current price. If you intend to use HooBuy, confirm that its current service accepts the original listing before paying.</p></li>
+<li><strong>Check fit and available evidence</strong><p>Compare the exact size chart with a garment you own. Match any QC references to the same item and variant rather than relying on a similar thumbnail.</p></li>
+<li><strong>Compare the complete cost</strong><p>Include domestic delivery, international freight, payment charges and applicable destination costs. Review return terms before committing.</p></li>
+</ol>
+</div>
+<div class="panel">
+<div class="eyebrow">A practical checklist</div>
+<h2>Look beyond the thumbnail</h2>
+<div class="tablewrap">
+<table>
+<thead><tr><th scope="col">Product type</th><th scope="col">What to compare</th></tr></thead>
+<tbody>
+<tr><td>Hoodies & sweaters</td><td>Chest, length, sleeve measurements, fabric composition and lining.</td></tr>
+<tr><td>Jackets</td><td>Shoulder width, layering room, closure, lining and any documented fabric claims.</td></tr>
+<tr><td>Bags</td><td>External dimensions, usable capacity, straps, seams, hardware and closure.</td></tr>
+<tr><td>Shoes</td><td>The exact model’s size chart, foot length, width and what the listed measurements represent.</td></tr>
+</tbody>
+</table>
+</div>
+<p class="small">Missing QC photos mean missing evidence. Listing photos cannot establish authenticity, hidden materials or long-term durability.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<div class="twocol">
+<div>
+<div class="eyebrow">Plan your total</div>
+<h2>The item price is only one part</h2>
+<p>A low spreadsheet price can become a more expensive purchase once freight and fees are added. Use the same currency for every field to compare realistic totals.</p>
+<p>The planner adds your own estimates. It does not fetch shipping rates, exchange rates, taxes or HooBuy fees. A blank field counts as zero, so add every relevant cost before relying on the result.</p>
+<p class="small">For a shared parcel, allocate shipping across items consistently. Bulky packaging may affect the charged shipment size even when the item is light.</p>
+</div>
+<div class="panel">
+<h3>Purchase budget planner</h3>
+<div class="budget">
+<label>Item cost<input class="cost" type="number" inputmode="decimal" min="0" step="0.01" placeholder="0.00"></label>
+<label>Domestic delivery<input class="cost" type="number" inputmode="decimal" min="0" step="0.01" placeholder="0.00"></label>
+<label>International freight<input class="cost" type="number" inputmode="decimal" min="0" step="0.01" placeholder="0.00"></label>
+<label>Fees & destination charges<input class="cost" type="number" inputmode="decimal" min="0" step="0.01" placeholder="0.00"></label>
+</div>
+<div class="total">Estimated total · your chosen currency<output id="total" aria-live="polite">0.00</output></div>
+<p class="small">An estimate, not a checkout quote. Enter nonnegative amounts in one currency.</p>
+</div>
+</div>
+</section>
+
+<section id="faq" class="section">
+<div class="eyebrow">Straightforward answers</div>
+<h2>HooBuy spreadsheet FAQ</h2>
+<details open><summary>What is this HooBuy spreadsheet page?</summary><p>It is an independent web directory and buying guide. It provides a small selection of real HipobuyFind catalog records with search and category filters. It does not offer a downloadable Google Sheet or process orders.</p></details>
+<details><summary>Is this an official HooBuy website?</summary><p>No. This page is not affiliated with HooBuy or the brands and marketplaces mentioned. HooBuy spreadsheet is the topic of the guide; outgoing shopping buttons lead to HipobuyFind.</p></details>
+<details><summary>Where do “HooBuy spreadsheet” and “Buy it now” take me?</summary><p>Both open https://hipobuyfind.com. Product source buttons open the corresponding HipobuyFind detail record. None of these buttons places an order, reserves stock or completes a payment.</p></details>
+<details><summary>Can every listed product be ordered through HooBuy?</summary><p>Compatibility is not confirmed. Open the product record, identify the original seller listing and check acceptance directly with your chosen purchasing service. A mention of an agent in a catalog title does not establish support.</p></details>
+<details><summary>Are the prices live and does the directory update automatically?</summary><p>No. The three entries are a fixed snapshot of source catalog data. Use the current destination listing for the final variant price, availability and purchasing terms. The filters only search the selection shown on this page.</p></details>
+<details><summary>Are product photographs the same as QC photos?</summary><p>No. These are source listing photographs. Warehouse QC photos, when available, concern a particular received item. Check that the item ID, size, color and other options match before using any photo as a reference.</p></details>
+<details><summary>How can I reduce sizing mistakes?</summary><p>Measure a comparable item that fits you and compare it with the exact listing’s measurement chart. Confirm the measurement method and units. Letter sizes and universal shoe conversions are insufficient for every seller or model.</p></details>
+</section>
+
+<section class="closing">
+<div class="eyebrow" style="color:#d9f28b">Your next shortlist starts here</div>
+<h2>Find something worth a closer look.</h2>
+<p>Browse the source catalog, compare the details and check the full cost.</p>
+<a class="btn" href="https://hipobuyfind.com">Buy it now ↗</a>
+<p class="small" style="color:#dbe7df">Continue to HipobuyFind to explore listings.</p>
+</section>
+</main>
+<footer>
+<div class="wrap">
+<strong>HooBuy spreadsheet · Independent discovery guide</strong>
+<p>This page provides product references and general shopping information. It does not sell products, collect payments, manage returns or access external orders. Product names and photographs belong to their respective owners. External listings and service terms may change.</p>
+<p>Catalog source: <a href="https://hipobuyfind.com">HipobuyFind</a>. No daily verification, guaranteed delivery or quality rating is claimed.</p>
+</div>
+</footer>
+<script>
+(function(){
+"use strict";
+const search=document.getElementById("search");
+const category=document.getElementById("category");
+const cards=Array.from(document.querySelectorAll("#products .card"));
+const count=document.getElementById("resultcount");
+const empty=document.getElementById("empty");
+function filter(){
+const terms=search.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+let visible=0;
+cards.forEach(function(card){
+const matchesCategory=category.value==="all"||category.value===card.dataset.category;
+const matchesText=terms.every(function(term){return card.dataset.search.includes(term);});
+card.hidden=!(matchesCategory&&matchesText);
+if(!card.hidden)visible++;
+});
+count.textContent=visible+" product"+(visible===1?"":"s")+" in this selection";
+empty.hidden=visible!==0;
+}
+search.addEventListener("input",filter);
+category.addEventListener("change",filter);
+document.querySelectorAll(".photo img").forEach(function(img){
+function fallback(){img.parentElement.classList.add("failed");}
+img.addEventListener("error",fallback);
+if(img.complete&&img.naturalWidth===0)fallback();
+});
+const costs=Array.from(document.querySelectorAll(".cost"));
+const total=document.getElementById("total");
+function calculate(){
+let sum=0;
+costs.forEach(function(input){
+const value=input.valueAsNumber;
+if(Number.isFinite(value)&&value>=0)sum+=value;
+});
+total.value=sum.toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2});
+}
+costs.forEach(function(input){input.addEventListener("input",calculate);});
+})();
+</script>
+</body>
+</html>
